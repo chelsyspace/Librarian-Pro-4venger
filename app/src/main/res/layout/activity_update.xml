@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/teal_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="Update Data"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/update_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/uploading" />
+
+            <EditText
+                android:id="@+id/update_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/teal_border"
+                android:fontFamily="@font/baloo_bhaina_2_medium"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Title"
+                android:padding="16dp"
+                android:textColor="@color/teal_700" />
+
+            <EditText
+                android:id="@+id/update_author"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/teal_border"
+                android:fontFamily="@font/baloo_bhaina_2_medium"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Author"
+                android:padding="16dp"
+                android:textColor="@color/teal_700" />
+
+            <EditText
+                android:id="@+id/update_description"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/teal_border"
+                android:fontFamily="@font/baloo_bhaina_2_medium"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Description"
+                android:padding="16dp"
+                android:textColor="@color/teal_700" />
+
+            <EditText
+                android:id="@+id/update_language"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/teal_border"
+                android:fontFamily="@font/baloo_bhaina_2_medium"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Language"
+                android:padding="16dp"
+                android:textColor="@color/teal_700" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Update"
+                android:id="@+id/update_button"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

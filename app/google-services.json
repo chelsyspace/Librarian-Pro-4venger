@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699789320619",
+    "project_id": "library-4vengers",
+    "storage_bucket": "library-4vengers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699789320619:android:1952dc1dd378426ec9f2ee",
+        "android_client_info": {
+          "package_name": "com.example.library_4vengers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699789320619-gmd15he1mju9gp2tj3ffc8d85vns05a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwne_No-x-M45S4G47PGQYDUaAQEmaBRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699789320619-gmd15he1mju9gp2tj3ffc8d85vns05a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
